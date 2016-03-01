@@ -5,7 +5,7 @@ project(game)
 include_directories(cgl/include)
 add_subdirectory(cgl)
 
-SET(CMAKE_C_FLAGS "-std=c11 -Wall -Wextra")
+SET(CMAKE_C_FLAGS "-Wall -Wextra -g")
 
 file(
 	GLOB_RECURSE
